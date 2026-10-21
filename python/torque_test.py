@@ -46,6 +46,7 @@ TOR_MAX_NEG = -36.9093
 def parse_args():
     p = argparse.ArgumentParser(description="最大トルク実測 (出力軸を固定して使う)")
     p.add_argument("--port", default=SERIAL_PORT, help="シリアルポート")
+    p.add_argument("--baud", type=int, default=BAUD_RATE, help="通信速度 [bps] (サーボの設定に合わせる)")
     p.add_argument("--id", type=int, default=0, help="サーボ ID (0-14)")
     p.add_argument("--torque", type=float, default=None,
                    help=f"目標トルク [Nm] (符号付き, {TOR_MAX_NEG}〜{TOR_MAX_POS}). "
@@ -149,7 +150,7 @@ def main():
     reason = "完了"
     profile = Profile(target, args.ramp, hold)
     try:
-        motor = MotorProtocolSync(args.port, BAUD_RATE, timeout=0.2)
+        motor = MotorProtocolSync(args.port, args.baud, timeout=0.2)
         fb = motor.send_and_receive(args.id, MODE_STOP, 0, 0.0, 0.0, 0.0, 0.0, 0.0)
         if fb is None:
             raise SystemExit("サーボから応答がありません. 配線・ID・ポートを確認してください")

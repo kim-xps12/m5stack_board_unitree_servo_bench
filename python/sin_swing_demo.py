@@ -32,6 +32,7 @@ MODE_CLOSED_LOOP = 1
 def parse_args():
     p = argparse.ArgumentParser(description="位置制御 sin 波スイングデモ")
     p.add_argument("--port", default=SERIAL_PORT, help="シリアルポート")
+    p.add_argument("--baud", type=int, default=BAUD_RATE, help="通信速度 [bps] (サーボの設定に合わせる)")
     p.add_argument("--id", type=int, default=0, help="サーボ ID (0-14)")
     p.add_argument("--amp", type=float, default=0.5, help="振幅 [rad] (出力軸)")
     p.add_argument("--freq", type=float, default=0.5, help="周波数 [Hz]")
@@ -66,7 +67,7 @@ def main():
 
     motor = None
     try:
-        motor = MotorProtocolSync(args.port, BAUD_RATE, timeout=0.2)
+        motor = MotorProtocolSync(args.port, args.baud, timeout=0.2)
 
         # 現在位置を取得してスイング中心にする (mode=0: 停止状態のまま読み出し)
         fb = motor.send_and_receive(args.id, MODE_STOP, 0, 0.0, 0.0, 0.0, 0.0, 0.0)
