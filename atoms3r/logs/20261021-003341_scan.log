@@ -1,0 +1,75 @@
+> PING
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42024502
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+#READY bench 1
+OK bench 1 gen_clk=80000000
+#END
+> XCHG 4000000 5 0 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=4000000 n=5 ok=5 noresp=0 nohdr=0 short=0 crc=0 lat_min=73 lat_avg=86 lat_max=90
+FBK id=0 mode=0 temp=37 winding=31 vol=7.5 pos=5.7776 spd=0.0000 tor=0.0000 merr=0 warn=0
+#END
+> XCHG 4000000 5 1 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 2 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 3 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 4 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 5 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 6 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 7 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 8 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 9 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 10 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 11 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 12 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 13 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4000000 5 14 u 2000 0 1 4 32000 0 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+XRES baud=4000000 n=5 ok=0 noresp=5 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END

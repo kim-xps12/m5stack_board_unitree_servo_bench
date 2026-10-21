@@ -1,0 +1,23 @@
+  baud  4000000 (+0.00%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3987538 (-0.31%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3975155 (-0.62%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3962848 (-0.93%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3950617 (-1.23%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3938461 (-1.54%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3926380 (-1.84%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3914373 (-2.14%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3902439 (-2.44%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  3890577 (-2.74%)  ok 0/300 (0.00%)  noresp 300  bad 0
+  baud  3878787 (-3.03%)  ok 0/300 (0.00%)  noresp 300  bad 0
+  baud  4012539 (+0.31%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  4025157 (+0.63%)  ok 300/300 (100.00%)  noresp 0  bad 0
+  baud  4037854 (+0.95%)  ok 289/300 (96.33%)  noresp 11  bad 0
+  baud  4050632 (+1.27%)  ok 290/300 (96.67%)  noresp 10  bad 0
+  baud  4063492 (+1.59%)  ok 282/300 (94.00%)  noresp 18  bad 0
+  baud  4076433 (+1.91%)  ok 288/300 (96.00%)  noresp 12  bad 0
+  baud  4089456 (+2.24%)  ok 287/300 (95.67%)  noresp 13  bad 0
+  baud  4102564 (+2.56%)  ok 286/300 (95.33%)  noresp 14  bad 0
+  baud  4115755 (+2.89%)  ok 0/300 (0.00%)  noresp 300  bad 0
+  baud  4129032 (+3.23%)  ok 0/300 (0.00%)  noresp 300  bad 0
+
+error-free window: 3902439 .. 4025157 bps (-2.44% .. +0.63% of 4000000)

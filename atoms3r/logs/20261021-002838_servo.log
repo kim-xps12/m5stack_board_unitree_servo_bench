@@ -1,0 +1,19 @@
+> PING
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x18 (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42024502
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+#READY bench 1
+OK bench 1 gen_clk=80000000
+#END
+> XCHG 6000000 20000 0 u 1000 0 1 4 32000 0 1
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=6009389 n=20000 ok=20000 noresp=0 nohdr=0 short=0 crc=0 lat_min=15 lat_avg=50 lat_max=55
+FBK id=0 mode=1 temp=36 winding=33 vol=7.5 pos=3.8080 spd=0.0000 tor=-0.0023 merr=0 warn=0
+#END

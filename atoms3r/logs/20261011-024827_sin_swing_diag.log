@@ -1,0 +1,31 @@
+> start amp=0 duration=5
+中心位置 = 5.7839 rad, 電圧 = 7.5 V, 温度 = 54 ℃
+スイング開始: A=0 rad, f=0.5 Hz, Kp=10, Kd=0.3  (stop またはボタンで停止)
+t=  0.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=+0.005 Nm  MError=0
+t=  1.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=-0.003 Nm  MError=0
+t=  2.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=-0.002 Nm  MError=0
+t=  3.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=-0.002 Nm  MError=0
+t=  4.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=-0.003 Nm  MError=0
+完了: 1000 周期 / 5.00 s (平均 200.0 Hz)
+通信失敗: 無応答 3, 受信エラー 0 / 1000 周期 (4000000 bps)
+サーボ停止 (mode=0)
+> start amp=0.1 duration=5
+中心位置 = 5.7839 rad, 電圧 = 7.5 V, 温度 = 55 ℃
+スイング開始: A=0.1 rad, f=0.5 Hz, Kp=10, Kd=0.3  (stop またはボタンで停止)
+t=  0.00s  des=+5.7839  pos=+5.7839  err=+0.0000 rad  tor=+0.005 Nm  MError=0
+t=  2.00s  des=+5.7839  pos=+5.7808  err=+0.0031 rad  tor=+0.011 Nm  MError=0
+t=  4.00s  des=+5.7839  pos=+5.7808  err=+0.0031 rad  tor=+0.008 Nm  MError=0
+完了: 1000 周期 / 5.00 s (平均 200.0 Hz)
+通信失敗: 無応答 508, 受信エラー 0 / 1000 周期 (4000000 bps)
+サーボ停止 (mode=0)
+> start amp=0.1 duration=5 baud=3944530
+中心位置 = 5.7854 rad, 電圧 = 7.5 V, 温度 = 56 ℃
+スイング開始: A=0.1 rad, f=0.5 Hz, Kp=10, Kd=0.3  (stop またはボタンで停止)
+t=  0.00s  des=+5.7854  pos=+5.7854  err=+0.0000 rad  tor=+0.009 Nm  MError=0
+t=  1.00s  des=+5.7854  pos=+5.7871  err=-0.0018 rad  tor=-0.001 Nm  MError=0
+t=  2.00s  des=+5.7854  pos=+5.7818  err=+0.0036 rad  tor=+0.027 Nm  MError=0
+t=  3.00s  des=+5.7854  pos=+5.7872  err=-0.0019 rad  tor=+0.001 Nm  MError=0
+t=  4.00s  des=+5.7854  pos=+5.7818  err=+0.0036 rad  tor=+0.025 Nm  MError=0
+完了: 1000 周期 / 5.00 s (平均 200.0 Hz)
+通信失敗: 無応答 0, 受信エラー 0 / 1000 周期 (3944530 bps)
+サーボ停止 (mode=0)
