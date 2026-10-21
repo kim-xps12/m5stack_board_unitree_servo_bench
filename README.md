@@ -26,8 +26,12 @@ The firmware builds Unitree's packet code (`stm32/firmware/App/protocol.c`) unmo
 
 ## Notes
 
-- 実験の記録とログは，当時の通信速度 (6 Mbps，3.95 Mbps など) のまま残しています．基板は 4 Mbps だけを扱います．
-- `external/digital_servo` のコードは Unitree の条件 (非商用の研究・教育・DIY 向け) に従います．それを組み込んでビルドしたファームウェアも同じです．
+実験の記録とログは，当時の通信速度 (6 Mbps，3.95 Mbps など) のまま残しています．基板は 4 Mbps だけを扱います．
 
-- The records and logs keep the baud rates used at the time (6 Mbps, 3.95 Mbps, ...). The board supports 4 Mbps only.
-- The code in `external/digital_servo` is under Unitree's terms (non-commercial research, education and DIY), and so is firmware built with it.
+The records and logs keep the baud rates used at the time (6 Mbps, 3.95 Mbps, ...). The board supports 4 Mbps only.
+
+## License
+
+このリポジトリのコードと文書は MIT ライセンスです ([LICENSE](LICENSE))．`external/digital_servo` は Unitree のリポジトリで，MIT ライセンスには含まれません．そのコードは Unitree の条件 (非商用の研究・教育・DIY 向け) に従います．それを組み込んでビルドしたファームウェアも同じです．
+
+The code and documents in this repository are under the MIT License ([LICENSE](LICENSE)). `external/digital_servo` is Unitree's repository and is not covered: its code is under Unitree's terms (non-commercial research, education and DIY), and so is firmware built with it.

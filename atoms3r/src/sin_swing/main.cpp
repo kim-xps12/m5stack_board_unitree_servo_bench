@@ -10,10 +10,10 @@
 // 開始時に目標値が跳ぶことはない. timeout=1 (超時保護有効) で送信するため, 送信が止まれば
 // サーボも約 1 s で停止する. 終了時 (stop コマンド・ボタン含む) は mode=0 を送って停止する.
 //
-// 配線: Grove (G2 -> 基板 STS_TX, G1 <- 基板 STS_RX). サーボは 4 Mbps 設定, こちらは 3.95 Mbps (BAUD_RATE).
+// 配線: Grove (G2 -> 基板 J2 の TX, G1 <- 基板 J2 の RX). サーボは 4 Mbps 設定, こちらも 4 Mbps (BAUD_RATE).
 // 操作 (USB シリアル):
 //   start [amp=0.5] [freq=0.5] [kp=10] [kd=0.3] [duration=10] [ramp=1] [rate=200] [print=10] [id=0]
-//         [baud=3950617]
+//         [baud=4000000]
 //   stop
 //   status    mode=0 で 1 回通信して状態を表示 (サーボは動かない)
 // 前面ボタン: 停止中なら前回の条件で開始, スイング中なら停止.
@@ -29,14 +29,14 @@ extern "C" {
 #include "protocol.h"
 }
 
-static const gpio_num_t PIN_TX = GPIO_NUM_2;       // Grove -> 基板 STS_TX
-static const gpio_num_t PIN_RX = GPIO_NUM_1;       // Grove <- 基板 STS_RX (MAX3485 RO)
+static const gpio_num_t PIN_TX = GPIO_NUM_2;       // Grove -> 基板 J2 の TX
+static const gpio_num_t PIN_RX = GPIO_NUM_1;       // Grove <- 基板 J2 の RX
 static const gpio_num_t PIN_BUTTON = GPIO_NUM_41;  // 前面ボタン (押すと Low)
 static const uart_port_t SERVO_UART = UART_NUM_1;
-// サーボ (4 Mbps 設定) がこちらのコマンドを確実に読めるのは -3.0%..+0.3% の範囲で, 公称 4 Mbps は
-// 速い側の限界に近い (スイング中は約半数が無応答). 範囲の中心寄りの 80 MHz / (20 + 4/16) を使う.
-// サーボからの応答はこの差があっても問題なく読める. 測定: atoms3r/tools/bench.py margin.
-static const uint32_t BAUD_RATE = 3950617;
+// Unitree 用の基板では 4 Mbps ちょうどで取りこぼしがない (docs/ttl_board_redesign.md §7.1).
+// 旧基板 (DYNAMIXEL 用) では公称 4 Mbps がサーボの読める範囲の速い側の限界に近く, スイング中に約半数が
+// 無応答になるので, start に baud=3950617 (80 MHz / (20 + 4/16), 範囲の中心寄り) を付ける (同 §8).
+static const uint32_t BAUD_RATE = 4000000;
 static const size_t CMD_LEN = sizeof(ControlData_t);   // 20
 static const size_t FBK_LEN = sizeof(RecvData_t) - 2;  // 26
 static const int64_t REPLY_TIMEOUT_US = 1000;

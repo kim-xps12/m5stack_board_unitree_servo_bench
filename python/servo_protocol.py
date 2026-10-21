@@ -19,7 +19,7 @@ import serial
 RATIO = 70070.0 / 243.0                         # 減速比
 
 SERIAL_PORT = "/dev/tty.usbmodem36594BB319741"  # 公式の USB アダプタ
-BAUD_RATE = 6000000
+BAUD_RATE = 4000000                             # サーボは公式ツールで 4 Mbps に設定しておく
 
 FEEDBACK_LEN = 26
 

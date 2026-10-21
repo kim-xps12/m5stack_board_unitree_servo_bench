@@ -4,7 +4,11 @@ Scripts that drive the servo from a PC through Unitree's USB single-wire adapter
 Packets are built and parsed by `servo_protocol.py`, which replaces Unitree's
 `servo_demo.py` with the same names: it packs the target position as signed
 (`servo_demo.py` raises `struct.error` on a negative target) and reads the winding
-temperature and voltage as unsigned. The default port and baud rate are set there.
+temperature and voltage as unsigned.
+
+Every script takes `--port` and `--baud`. The baud rate defaults to 4 Mbps: set the
+servo to 4 Mbps with Unitree's tool first, or pass the servo's rate (`--baud 6000000`
+for a servo still at the factory 6 Mbps). The default port is set in `servo_protocol.py`.
 
 ```bash
 pip install -r requirements.txt
@@ -22,6 +26,7 @@ python sin_swing_demo.py --amp 0.5 --freq 0.5 --kp 10 --kd 0.3 --duration 10
 | Option | Default | Description |
 |--------|---------|-------------|
 | `--port` | `SERIAL_PORT` in `servo_protocol.py` | Serial port |
+| `--baud` | 4000000 | Baud rate, the same as the servo's setting |
 | `--id` | 0 | Servo ID |
 | `--amp` / `--freq` | 0.5 rad / 0.5 Hz | Sine amplitude / frequency |
 | `--kp` / `--kd` | 10 / 0.3 | Stiffness / damping gains |

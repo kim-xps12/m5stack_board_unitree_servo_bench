@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Drive the AtomS3R bench firmware (atoms3r/src/main.cpp) and analyse what it captures.
+"""Drive the AtomS3R bench firmware (atoms3r/src/bench/main.cpp) and analyse what it captures.
 
-Bench steps -- servo unplugged, J1 power unplugged, jumper from board J4 pin 3 (A) to AtomS3R G5:
-    check     wiring sanity: A line visible on G5, RO tri-states while DE is high
-    sweep     MAX3485 enable delay vs. idle time before a falling edge (RMT-generated pattern)
-    packet    real UART packets at 4 / 6 Mbps on the A line, decoded by an ideal receiver
+Bench steps -- servo unplugged, J1 power unplugged, jumper from the bus signal to AtomS3R G5
+(Unitree board: J3 pin 3; DYNAMIXEL TTL board: J4 pin 3, MAX3485 A):
+    check     wiring sanity: bus visible on G5, RX tri-states while the board transmits (DE high)
+    sweep     driver enable delay vs. idle time before a falling edge (RMT-generated pattern)
+    packet    real UART packets at 4 / 6 Mbps on the bus, decoded by an ideal receiver
 
 Servo steps -- jumper removed, servo connected and powered:
     scan      find the servo ID

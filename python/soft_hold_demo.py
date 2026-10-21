@@ -34,6 +34,7 @@ KD_LSB = RATIO * RATIO / 128000000.0   # ≈ 0.00065 [Nm·s/rad]
 def parse_args():
     p = argparse.ArgumentParser(description="低 Kp 位置保持 (バックドライブ) デモ")
     p.add_argument("--port", default=SERIAL_PORT, help="シリアルポート")
+    p.add_argument("--baud", type=int, default=BAUD_RATE, help="通信速度 [bps] (サーボの設定に合わせる)")
     p.add_argument("--id", type=int, default=0, help="サーボ ID (0-14)")
     p.add_argument("--kp", type=float, default=1.0, help="剛性ゲイン Kp (0-2128.523)")
     p.add_argument("--kd", type=float, default=0.05, help="減衰ゲイン Kd (0-21.285)")
@@ -67,7 +68,7 @@ def main():
 
     motor = None
     try:
-        motor = MotorProtocolSync(args.port, BAUD_RATE, timeout=0.2)
+        motor = MotorProtocolSync(args.port, args.baud, timeout=0.2)
 
         # 現在位置を保持目標にする (mode=0: 停止状態のまま読み出し)
         fb = motor.send_and_receive(args.id, MODE_STOP, 0, 0.0, 0.0, 0.0, 0.0, 0.0)

@@ -49,6 +49,7 @@ CORRECTION_GAIN = 0.02           # ExPos 誤差を毎周期目標に足し込む
 def parse_args():
     p = argparse.ArgumentParser(description="全サーボを出力端エンコーダのゼロ点へ戻して到達を確認する")
     p.add_argument("--port", default=SERIAL_PORT, help="シリアルポート")
+    p.add_argument("--baud", type=int, default=BAUD_RATE, help="通信速度 [bps] (サーボの設定に合わせる)")
     p.add_argument("--ids", type=int, nargs="+", default=list(range(BROADCAST_ID)),
                    help="対象 ID (既定: 0-14)")
     p.add_argument("--kp", type=float, default=10.0, help="剛性ゲイン Kp (0-2128.523)")
@@ -75,8 +76,8 @@ class ServoBus:
     """応答なしを想定した 1 往復通信. 未接続 ID のたびにエラー表示が出ないよう,
     MotorProtocolSync.send_and_receive を使わず直接送受信する."""
 
-    def __init__(self, port):
-        self.motor = MotorProtocolSync(port, BAUD_RATE, timeout=0.02)
+    def __init__(self, port, baud):
+        self.motor = MotorProtocolSync(port, baud, timeout=0.02)
 
     def transact(self, motor_id, mode, timeout_flag, spd=0.0, pos=0.0, kp=0.0, kd=0.0):
         ser = self.motor.ser
@@ -200,7 +201,7 @@ def main():
     results = {}
     current = None
     try:
-        bus = ServoBus(args.port)
+        bus = ServoBus(args.port, args.baud)
         print(f"ID {args.ids} を順に出力端エンコーダのゼロ点へ戻します (Ctrl+C で中断)")
         for motor_id in args.ids:
             current = motor_id
