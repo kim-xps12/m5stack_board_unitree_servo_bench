@@ -1,0 +1,90 @@
+> PING
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42024502
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+#READY bench 1
+OK bench 1 gen_clk=80000000
+#END
+> XCHG 4018838 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=4025157 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4006259 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=4012539 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=4000000 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3981337 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3987538 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3975155 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3956723 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3962848 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3950617 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3932411 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3938461 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3926380 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3908396 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3914373 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3902439 n=300 ok=269 noresp=31 nohdr=0 short=0 crc=0 lat_min=70 lat_avg=87 lat_max=97
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0011 merr=0 warn=0
+#END
+> XCHG 3884673 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3890577 n=300 ok=270 noresp=30 nohdr=0 short=0 crc=0 lat_min=71 lat_avg=87 lat_max=97
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0023 merr=0 warn=0
+#END
+> XCHG 3872919 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3878787 n=300 ok=261 noresp=39 nohdr=0 short=0 crc=0 lat_min=70 lat_avg=87 lat_max=92
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0023 merr=0 warn=0
+#END
+> XCHG 3861236 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3867069 n=300 ok=70 noresp=230 nohdr=0 short=0 crc=0 lat_min=74 lat_avg=88 lat_max=98
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0011 merr=0 warn=0
+#END
+> XCHG 3849624 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3855421 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3838080 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3843843 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3832335 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3815201 300 0 u 1000 0 1 4 32000 0 0
+TXB 0 FEEE000000000000000000000000000080462079
+XRES baud=3820895 n=300 ok=0 noresp=300 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END

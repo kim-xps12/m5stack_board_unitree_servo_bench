@@ -1,0 +1,1801 @@
+> PING
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x15 (USB_UART_CHIP_RESET),boot:0x1b (SPI_FAST_FLASH_BOOT)
+Saved PC:0x42024502
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce3808,len:0x4bc
+load:0x403c9700,len:0xbd8
+load:0x403cc700,len:0x2a0c
+entry 0x403c98d0
+#READY bench 1
+OK bench 1 gen_clk=80000000
+#END
+> XCHG 4203612 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4203612 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4210526 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4176182 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4183006 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4149108 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4155844 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4122383 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4129032 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4096000 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4102564 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4069952 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4076433 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4044233 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4050632 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 4018838 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4025157 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3993759 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=4000000 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3968992 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3975155 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3944530 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3950617 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3920367 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3926380 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 FCEE00362B0FFEFF0000ECA9840000000000671D0000F6850A08
+RXB 1 FCEE00362B0FFEFF0000EBA9840000000000681D00001754C4E7
+RXB 2 FCEE00362B0FFEFF0000E9A9840000000000681D00006C1D0407
+XRES baud=3902439 n=3 ok=3 noresp=0 nohdr=0 short=0 crc=0 lat_min=84 lat_avg=86 lat_max=90
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0023 merr=0 warn=0
+#END
+> XCHG 3896499 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3896499 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3902439 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 FCEE00362B0FFEFF0000EFA9840000000000671D0000EB66CA1A
+RXB 2 FCEE00362B0FFEFF0000EAA9840000000000671D0000CC438B2D
+XRES baud=3878787 n=3 ok=2 noresp=1 nohdr=0 short=0 crc=0 lat_min=77 lat_avg=82 lat_max=88
+FBK id=0 mode=0 temp=54 winding=43 vol=7.5 pos=5.7814 spd=0.0000 tor=-0.0023 merr=0 warn=0
+#END
+> XCHG 3872919 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3872919 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3878787 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3849624 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3855421 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3826606 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3832335 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 0 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE000000000000000000000000000080462079
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 1 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0100000000000000000000000000F2A72FA4
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 2 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0200000000000000000000000000D399FEC7
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 3 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0300000000000000000000000000A178F11A
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 4 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE040000000000000000000000000091E55C00
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 5 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0500000000000000000000000000E30453DD
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 6 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0600000000000000000000000000C23A82BE
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 7 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0700000000000000000000000000B0DB8D63
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 8 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0800000000000000000000000000A200D98B
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 9 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0900000000000000000000000000D0E1D656
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 10 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0A00000000000000000000000000F1DF0735
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 11 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0B00000000000000000000000000833E08E8
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 12 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0C00000000000000000000000000B3A3A5F2
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 13 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0D00000000000000000000000000C142AA2F
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END
+> XCHG 3803863 3 14 u 2000 0 1 4 32000 1 0
+TXB 0 FEEE0E00000000000000000000000000E07C7B4C
+RXB 0 
+RXB 1 
+RXB 2 
+XRES baud=3809523 n=3 ok=0 noresp=3 nohdr=0 short=0 crc=0 lat_min=-1 lat_avg=-1 lat_max=-1
+#END

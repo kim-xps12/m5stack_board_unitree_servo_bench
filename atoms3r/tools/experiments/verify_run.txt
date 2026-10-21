@@ -1,0 +1,68 @@
+[E0] baseline, D = 0
+  UART 4000000: ok 0/50   UART 3890577: ok 43/50
+  GEN  +0.00%: ok 0/50
+  GEN  -2.74%: ok 44/50
+
+[E1] first-low stretch D at 4 Mbps (D in ticks of 12.5 ns)
+  D  0 (  0.0 ns): stop   0%  random   0%
+  D  1 ( 12.5 ns): stop   0%  random   0%
+  D  2 ( 25.0 ns): stop   0%  random   0%
+  D  3 ( 37.5 ns): stop   0%  random   0%
+  D  4 ( 50.0 ns): stop  98%  random  95%
+  D  5 ( 62.5 ns): stop 100%  random 100%
+  D  6 ( 75.0 ns): stop 100%  random 100%
+  D  7 ( 87.5 ns): stop 100%  random 100%
+  D  8 (100.0 ns): stop 100%  random 100%
+  D  9 (112.5 ns): stop 100%  random 100%
+  D 10 (125.0 ns): stop 100%  random 100%
+  D 11 (137.5 ns): stop 100%  random 100%
+  D 12 (150.0 ns): stop 100%  random 100%
+  D 13 (162.5 ns): stop 100%  random 100%
+  D 14 (175.0 ns): stop 100%  random 100%
+  D 15 (187.5 ns): stop  72%  random  78%
+  D 16 (200.0 ns): stop   0%  random   0%
+  D giving 100% for both: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14] -> using D = 10 (125.0 ns)
+
+[E2] baud window at D = 10
+   -4.2%: stop   0%  random   0%
+   -3.9%: stop   0%  random   0%
+   -3.6%: stop   0%  random   0%
+   -3.3%: stop   0%  random   0%
+   -3.0%: stop   0%  random   0%
+   -2.7%: stop   0%  random   0%
+   -2.4%: stop  80%  random  78%
+   -2.1%: stop 100%  random 100%
+   -1.8%: stop 100%  random 100%
+   -1.5%: stop 100%  random 100%
+   -1.2%: stop 100%  random 100%
+   -0.9%: stop 100%  random 100%
+   -0.6%: stop 100%  random 100%
+   -0.3%: stop 100%  random 100%
+   +0.0%: stop 100%  random 100%
+   +0.3%: stop 100%  random 100%
+   +0.6%: stop 100%  random 100%
+   +0.9%: stop 100%  random 100%
+   +1.2%: stop 100%  random 100%
+   +1.5%: stop 100%  random 100%
+   +1.8%: stop   0%  random   0%
+   +2.1%: stop   0%  random   0%
+   +2.4%: stop   0%  random   0%
+   +2.7%: stop   0%  random   0%
+   +3.0%: stop   0%  random   0%
+   +3.3%: stop   0%  random   0%
+   +3.6%: stop   0%  random   0%
+   +3.9%: stop   0%  random   0%
+   +4.2%: stop   0%  random   0%
+
+[E4] one leading byte at D = 0, 4 Mbps
+  none   : stop   0%  random   0%
+  00     : stop   0%  random   0%
+  FF     : stop 100%  random 100%
+  00+3us : stop 100%  random 100%
+
+[E3] DE release -> reply start (us)
+  stop   n 1144  min 16.95  median 17.09  max 18.43
+  random n 1100  min 16.51  median 17.02  max 20.14
+
+log: /Users/b-sky-lab/Projects/digital_servo/atoms3r/tools/../logs/20261011-193959_verify.log 
+result: /private/tmp/claude-501/-Users-b-sky-lab-Projects-digital-servo-python/7193718d-2c70-43ec-8a32-b4805a8cf97d/scratchpad/verify_result.json

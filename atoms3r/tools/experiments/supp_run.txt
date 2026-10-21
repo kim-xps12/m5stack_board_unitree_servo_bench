@@ -1,0 +1,28 @@
+[S1] long runs at 4 Mbps, D = 0
+  FF      stop 200/200  random 400/400
+  00+3us  stop 200/200  random 400/400
+  00+2us  stop 200/200  random 400/400
+  00+1us  stop 200/200  random 400/400
+[S2] FF preamble, baud window (random)
+   -3.0%:  25%
+   -2.7%:  10%
+   -2.4%: 100%
+   -2.1%: 100%
+   -1.8%: 100%
+   -1.5%: 100%
+   -1.2%: 100%
+   -0.9%: 100%
+   -0.6%: 100%
+   -0.3%: 100%
+   +0.0%: 100%
+   +0.3%: 100%
+   +0.6%: 100%
+   +0.9%: 100%
+   +1.2%:  95%
+   +1.5%:  95%
+   +1.8%:   0%
+   +2.1%:   0%
+   +2.4%:   0%
+   +2.7%:   0%
+   +3.0%:   0%
+log: /Users/b-sky-lab/Projects/digital_servo/atoms3r/tools/../logs/20261011-194228_verify_supp.log
