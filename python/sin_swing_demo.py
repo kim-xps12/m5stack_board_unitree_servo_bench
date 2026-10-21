@@ -1,6 +1,6 @@
 """位置制御モードで sin 波に沿ってサーボをスイングさせるサンプル.
 
-servo_demo.py の通信クラス (MotorProtocolSync) を流用し, mode=1 (hybrid closed-loop)
+servo_protocol.py の通信クラス (MotorProtocolSync) を使い, mode=1 (hybrid closed-loop)
 で以下の目標値を一定周期で送り続ける.
 
     pos_des(t) = center + A * env(t) * sin(2π f t)
@@ -23,7 +23,7 @@ import time
 
 import serial
 
-from servo_demo import SERIAL_PORT, BAUD_RATE, MotorProtocolSync
+from servo_protocol import SERIAL_PORT, BAUD_RATE, MotorProtocolSync
 
 MODE_STOP = 0
 MODE_CLOSED_LOOP = 1

@@ -1,8 +1,8 @@
 """Stop command with / without a dummy 0xFF preamble (mode 0 only; the servo does not move)."""
 import os, sys
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
-from servo_demo import build_control_packet, parse_feedback_packet
+from servo_protocol import build_control_packet, parse_feedback_packet
 
 reps = 50
 stop = build_control_packet(0, 0, 0, 0, 0, 0, 0, 0)

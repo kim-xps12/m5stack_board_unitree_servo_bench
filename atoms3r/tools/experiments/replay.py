@@ -1,6 +1,6 @@
 """Re-run bench.py analyses on a recorded log (no hardware)."""
-import sys, types
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+import os, sys, types
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
 
 class Replay:

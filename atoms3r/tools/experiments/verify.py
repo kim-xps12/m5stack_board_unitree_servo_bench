@@ -17,7 +17,7 @@ import random
 import sys
 import time
 
-TOOLS = '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools'
+TOOLS = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 sys.path.insert(0, TOOLS)
 import bench  # noqa: E402
 from bench import (Bench, Wave, find_port, parse_caps, uart_bits, uart_decode, med, TICK_NS,  # noqa: E402

@@ -1,6 +1,6 @@
 """Reply timing (DE release -> reply start) from a recorded latency log."""
-import sys, statistics
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+import os, sys, statistics
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
 lines = [l.rstrip('\n') for l in open(sys.argv[1], errors='replace')]
 baud = int([l for l in lines if l.startswith('> XCHG')][0].split()[2])

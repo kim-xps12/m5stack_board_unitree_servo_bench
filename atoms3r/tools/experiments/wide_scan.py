@@ -1,6 +1,6 @@
 """Wide baud x ID sweep with stop commands (mode 0); reports any received bytes at all."""
 import os, sys, time
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
 
 log = open(os.path.join(os.path.dirname(__file__), 'wide_scan.log'), 'w')

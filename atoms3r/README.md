@@ -8,7 +8,8 @@ its RMT peripheral generates test patterns and records pin waveforms with 12.5 n
 so no oscilloscope is needed.
 
 The servo packets are built and parsed by the unmodified STM32 code in
-`../stm32/firmware/App/` (`compat/gpio.h` stands in for the STM32 HAL header it includes).
+`../external/digital_servo/stm32/firmware/App/`, Unitree's repository as a git submodule
+(`compat/gpio.h` stands in for the STM32 HAL header it includes).
 
 ## Wiring
 

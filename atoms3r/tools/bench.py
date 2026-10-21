@@ -27,7 +27,7 @@ import serial
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.join(HERE, '..', '..', 'python'))
-from servo_demo import build_control_packet, parse_feedback_packet  # noqa: E402
+from servo_protocol import build_control_packet, parse_feedback_packet  # noqa: E402
 
 TICK_NS = 12.5          # RMT counter at 80 MHz with clk_div 1
 UART_SCLK = 80_000_000  # UART source clock (APB)

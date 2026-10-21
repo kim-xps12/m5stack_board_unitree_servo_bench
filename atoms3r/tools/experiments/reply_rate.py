@@ -1,6 +1,6 @@
 """Capture servo replies on the RX pin and estimate the servo's own TX bit time."""
 import os, sys, statistics
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
 
 baud = int(sys.argv[1]) if len(sys.argv) > 1 else 3890577

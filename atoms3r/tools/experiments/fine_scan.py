@@ -1,6 +1,6 @@
 """Fine baud sweep for one ID with stop commands (mode 0)."""
 import os, sys
-sys.path.insert(0, '/Users/b-sky-lab/Projects/digital_servo/atoms3r/tools')
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
 import bench
 
 sid, n = 0, 300

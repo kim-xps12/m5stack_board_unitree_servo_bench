@@ -1,6 +1,6 @@
 """低 Kp の位置制御で「その場で止まり, 外力で柔らかくバックドライブできる」状態を試すサンプル.
 
-servo_demo.py の通信クラス (MotorProtocolSync) を流用し, mode=1 (hybrid closed-loop)
+servo_protocol.py の通信クラス (MotorProtocolSync) を使い, mode=1 (hybrid closed-loop)
 で起動時の出力軸位置を目標に保持する.
 
     tau = Kp (pos_hold - pos) + Kd (0 - spd)
@@ -21,7 +21,7 @@ import time
 
 import serial
 
-from servo_demo import SERIAL_PORT, BAUD_RATE, RATIO, MotorProtocolSync
+from servo_protocol import SERIAL_PORT, BAUD_RATE, RATIO, MotorProtocolSync
 
 MODE_STOP = 0
 MODE_CLOSED_LOOP = 1

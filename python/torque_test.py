@@ -33,7 +33,7 @@ import time
 
 import serial
 
-from servo_demo import SERIAL_PORT, BAUD_RATE, MotorProtocolSync
+from servo_protocol import SERIAL_PORT, BAUD_RATE, MotorProtocolSync
 
 MODE_STOP = 0
 MODE_CLOSED_LOOP = 1
