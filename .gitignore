@@ -1,0 +1,9 @@
+# PlatformIO build output
+.pio/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store

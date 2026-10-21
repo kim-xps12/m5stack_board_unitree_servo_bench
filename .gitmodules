@@ -1,0 +1,3 @@
+[submodule "external/digital_servo"]
+	path = external/digital_servo
+	url = https://github.com/unitreerobotics/digital_servo.git
