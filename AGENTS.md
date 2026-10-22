@@ -34,7 +34,7 @@ python3 atoms3r/tools/bench.py check  # 配線の確認。計測の手順は ato
 
 ## Git
 
-- remote は GitHub の `kim-xps12/m5stack_board_unitree_servo_bench`。push はユーザに頼まれたときだけ行う。
+- remote は GitHub の `kim-xps12/m5stack_example_unitree_servo`。push はユーザに頼まれたときだけ行う。
 - 作業はブランチで行い、PR で `main` に入れる。PR のマージはユーザがブラウザで行う。
 - コミットはユーザに頼まれたときだけ作る。1 コミット = 1 つの論理的な変更。
 - コミットメッセージは英語で書く。件名は命令形、本文に理由を書く。

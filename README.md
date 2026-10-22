@@ -1,4 +1,4 @@
-# Unitree Servo Board Bench for M5Stack
+# Unitree Servo Example for M5Stack
 
 ## About
 [M5Stack 用の Unitree サーボ基板](https://github.com/kim-xps12/m5stack_board_unitree_brushless_digital_servo) を動かして確かめるための，ファームウェア，スクリプト，実験の記録です．AtomS3R を測定器としても使い，オシロスコープなしで，送信の切り替えのタイミングとサーボとの通信を測ります．基板を作り直す前に DYNAMIXEL 用の TTL 基板で行った実験も含みます．
@@ -16,7 +16,7 @@ Firmware, scripts and test records for bringing up the [Unitree servo board for 
 ## Setup
 
 ```bash
-git clone --recursive https://github.com/kim-xps12/m5stack_board_unitree_servo_bench.git
+git clone --recursive https://github.com/kim-xps12/m5stack_example_unitree_servo.git
 git submodule update --init   # --recursive を付けずに取得したとき / if cloned without --recursive
 ```
 
